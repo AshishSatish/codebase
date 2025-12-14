@@ -18,7 +18,7 @@ A fast, offline semantic code search tool powered by tree-sitter that lets you s
 ### Option 1: Install from crates.io (Recommended)
 
 ```bash
-cargo install codebase
+cargo install codebase-ash
 ```
 
 This installs the `codebase` command globally on your system.
@@ -41,9 +41,9 @@ cargo install --path .
 ### Option 3: Download Pre-built Binary
 
 Download the latest release for your platform from [GitHub Releases](https://github.com/AshishSatish/codebase/releases):
-- Windows: `codebase-x86_64-pc-windows-msvc.zip`
-- macOS: `codebase-x86_64-apple-darwin.tar.gz`
-- Linux: `codebase-x86_64-unknown-linux-gnu.tar.gz`
+- Windows: `codebase-ash-x86_64-pc-windows-msvc.zip`
+- macOS: `codebase-ash-x86_64-apple-darwin.tar.gz`
+- Linux: `codebase-ash-x86_64-unknown-linux-gnu.tar.gz`
 
 Extract and add to your PATH.
 

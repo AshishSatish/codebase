@@ -19,7 +19,7 @@ use std::path::PathBuf;
 use walker::FileWalker;
 
 #[derive(ClapParser)]
-#[command(name = "codebase")]
+#[command(name = "codebase-ash")]
 #[command(about = "Semantic code search tool for offline use", long_about = None)]
 struct Cli {
     /// Natural language query (e.g., "find functions", "show structs")
