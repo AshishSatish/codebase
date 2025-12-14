@@ -1,0 +1,29 @@
+[package]
+name = "codebase"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ashish Satish Bhosale <ashishbhosale848@gmail.com>"]
+description = "Fast, offline semantic code search tool powered by tree-sitter"
+readme = "README.md"
+homepage = "https://github.com/yourusername/codebase"
+repository = "https://github.com/yourusername/codebase"
+license = "MIT OR Apache-2.0"
+keywords = ["code-search", "tree-sitter", "cli", "semantic-search", "ast"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "codebase"
+path = "src/main.rs"
+
+[dependencies]
+tree-sitter = "0.22"
+tree-sitter-rust = "0.21"
+tree-sitter-python = "0.21"
+tree-sitter-javascript = "0.21"
+tree-sitter-typescript = "0.21"
+tree-sitter-c = "0.21"
+tree-sitter-cpp = "0.22"
+walkdir = "2.5"
+clap = { version = "4.5", features = ["derive"] }
+colored = "2.1"
+anyhow = "1.0"
