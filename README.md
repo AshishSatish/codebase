@@ -26,7 +26,7 @@ This installs the `codebase` command globally on your system.
 ### Option 2: Build from Source
 
 ```bash
-git clone https://github.com/yourusername/codebase.git
+git clone https://github.com/AshishSatish/codebase.git
 cd codebase
 cargo build --release
 ```
@@ -40,7 +40,7 @@ cargo install --path .
 
 ### Option 3: Download Pre-built Binary
 
-Download the latest release for your platform from [GitHub Releases](https://github.com/yourusername/codebase/releases):
+Download the latest release for your platform from [GitHub Releases](https://github.com/AshishSatish/codebase/releases):
 - Windows: `codebase-x86_64-pc-windows-msvc.zip`
 - macOS: `codebase-x86_64-apple-darwin.tar.gz`
 - Linux: `codebase-x86_64-unknown-linux-gnu.tar.gz`
