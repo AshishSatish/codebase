@@ -1,5 +1,5 @@
 [package]
-name = "codebase"
+name = "codebase-ash"
 version = "0.1.0"
 edition = "2021"
 authors = ["Ashish Satish Bhosale <ashishbhosale848@gmail.com>"]
